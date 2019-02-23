@@ -1,0 +1,30 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                   Horse_01.jpg  label:                      horse
+ 2 key:                  Khawal_01.jpg  label:                     khawal
+ 3 key:                  Khawal_02.jpg  label:                     khawal
+ 4 key:           Modern_furniture.jpg  label:           modern furniture
+
+     MATCH:
+
+ NOT A MATCH:
+
+                  Horse_01.jpg: 
+Real:                      horse   Classifier:          flat-coated retriever
+
+                 Khawal_01.jpg: 
+Real:                     khawal   Classifier: german shepherd, german shepherd dog, german police dog, alsatian
+
+                 Khawal_02.jpg: 
+Real:                     khawal   Classifier: german shepherd, german shepherd dog, german police dog, alsatian
+
+          Modern_furniture.jpg: 
+Real:           modern furniture   Classifier:          studio couch, day bed
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+* Doesn't Check the Results Dictionary because 'adjust_results4_isadog' hasn't been defined.
