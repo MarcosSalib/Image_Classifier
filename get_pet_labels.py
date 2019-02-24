@@ -45,6 +45,8 @@ def get_pet_labels(image_dir):
     results_dic=dict()
     
     for name in filenames:
+        if not name.startswith('.'):
+            yield name
         name1=name.split('.')[0].lower()
         name2=''.join([i for i in name1 if not i.isdigit()]).replace('_',' ').strip()
         pet_labels.append(name2)
