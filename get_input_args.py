@@ -42,7 +42,7 @@ def get_input_args():
     # you created with this function 
     parser=argparse.ArgumentParser(description ="This is to retrieve CL inputs",)
     
-    parser.add_argument('--dir',type=str,action='store', default='pet_images',
+    parser.add_argument('--dir',type=str,action='store', default='pet_images/',
                         help='path to folder of images')
     parser.add_argument('--arch',type=str,action='store', default='vgg',
                         help='cnn architecture')
